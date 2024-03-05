@@ -5,4 +5,5 @@ As the geolocation is shared via SMS, it works well on 4G networks as well as 2G
 Do not use without an unlimited SMS plan. Depending on the selected settings, a large number of location SMS could be sent.
 The Safetracking app can only be started and stopped on the KaiOS device where the app is installed
 
-Contact me for collaboration or to adpat the app if required
+Contact me for collaboration or to adpat the app if required.
+opensourceiot.org@gmail.com
