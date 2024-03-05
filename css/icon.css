@@ -1,0 +1,40 @@
+/* Default styling for all screen sizes */
+#icon {
+    position: fixed; /* Set position to fixed for proper centering */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the circle */
+    width: 120px;
+    height: 120px;
+    background-color: #e80808;
+    border: 4px solid #626363; /* Blue border */
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); /* Shadow effect */
+    background: linear-gradient(to bottom, #F00 0%, #F2F2F2 100%);
+    background-image: linear-gradient(to bottom, #008000 0%, #F2F2F2 100%); /* Add the green gradient for "green" state */
+    text-align: center;
+  }
+  
+  /* Create a vertical line using a pseudo-element */
+  #icon::before {
+    content: "";
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    width: 4px;
+    height: 50%; /* Adjust the height to make the line taller */
+    background-color: #626363; /* Blue line */
+    border-radius: 4px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+  
+  #icon span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text within the circle */
+    color: #f3f4f4; /* Blue text */
+    font-size: 20px;
+    font-weight: bold;
+  }
+  

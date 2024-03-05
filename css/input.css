@@ -1,0 +1,38 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 0px;
+  position: relative;
+  padding-top: 0px;
+}
+
+.input input {
+  font-weight: 100;
+  font-size: 0px;
+  color: #242424;
+  overflow: hidden;
+  width: 10%;
+  letter-spacing: 10px;
+  text-overflow: ellipsis;
+}
+
+.input label {
+  position: absolute;
+  bottom: 0;
+  font-size: 6px;
+  color: rgb(193, 233, 233);
+}
+
+.input input::placeholder {
+  color: transparent;
+}
+
+#status {
+  font-weight: 150;
+  font-size: 14px;
+}
+
+#parent {
+  font-weight: 100;
+  font-size: 14px;
+}

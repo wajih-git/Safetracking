@@ -1,0 +1,49 @@
+{
+  "version": "4.2.0",
+  "name": "Safetracking",
+  "description": "Automatically send device GPS location by SMS at intervals and duration defined by the user",
+  "launch_path": "/index.html",
+  "icons": {
+    "56": "/img/icons/icon60x60b.png",
+    "112": "/img/icons/icon128x128b.png"
+  },
+  "developer": {
+    "name": "Wajih",
+    "url": "http://www.opensource-iot.org"
+  },
+  "type" : "certified",
+  "permissions": {
+    "sms": {},
+    "telephony": {
+			"description": "Required to control telephony functions"
+		},
+		"audio-channel-telephony":{},
+		"attention":{},
+		"mobileconnection":{},
+  "geolocation":{},
+    "geolocation-high-accuracy": {},
+    "geolocation-background":{},
+    "audio-capture":{},
+    "systemXHR":{},
+    "alarms": {
+      "description": "Required to schedule alarms"
+    }
+  },
+  "geolocation-noprompt": {
+    "substitute": ["geolocation"]
+},
+  "installs_allowed_from": [
+    "*"
+  ],
+  "locales": {
+    "en-US": {
+      "name": "Safetracking",
+      "description": "Automatically send device GPS location by SMS at intervals and duration defined by the user",
+      "permissions": {}
+    }
+  },
+  "default_locale": "en-US",
+"messages": [
+  { "alarm": "/index.html" }
+]
+}
