@@ -391,10 +391,7 @@ var options = {
   timeout: 240000,
   maximumAge: 60000
 };
-//var dest1Lat = 51.5079833;
-//var dest2Lat = 51.5215668;
-//var dest1Lg = -0.2317319;
-//var dest2Lg = -0.3162318;
+
 let targetLat;
 let targetLng;
 var destReached = false
